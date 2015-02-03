@@ -54,16 +54,16 @@
     },
     {
       "name": "Jinkwon Lee",
-      "email" : "master@bdyne.net"
+      "email": "master@bdyne.net"
     }
   ],
   "dependencies": {
     "colors": "1.0.3",
+    "ecstatic": "git://github.com/vvo/node-ecstatic#4f637104549f713302546ce03e46737ee5660d57",
+    "opener": "~1.4.0",
     "optimist": "0.6.x",
-    "union": "~0.4.3",
-    "ecstatic": "~0.5.6",
     "portfinder": "0.2.x",
-    "opener": "~1.4.0"
+    "union": "~0.4.3"
   },
   "devDependencies": {
     "vows": "0.7.x",
@@ -83,6 +83,6 @@
   "preferGlobal": "true",
   "bin": {
     "http-server": "./bin/http-server",
-    "hs" : "./bin/http-server"
+    "hs": "./bin/http-server"
   }
 }
